@@ -517,12 +517,12 @@ body {
 }
 
 .colorlib-experience,
-.colorlib-skills,
+.irving-skills,
 .colorlib-education,
 .colorlib-blog,
 .colorlib-work,
 .portfolio-about,
-.irving-services,
+.irving-tools,
 .colorlib-contact{
 	padding-top: 4em;
 	padding-bottom: 9em;
@@ -1315,12 +1315,12 @@ margin-left: -20px;
 
 
 //COUNTER
-#colorlib-counter{
+#portfolio-counter{
 	position: relative;
 	clear: both;
 	margin-bottom: 5em;
 }
-.colorlib-counters {
+.portfolio-counters {
 	padding: 3em 0;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1354,7 +1354,7 @@ margin-left: -20px;
 	.counter-wrap{
 		border: 1px solid red !important;
 	}
-	.colorlib-counter {
+	.portfolio-counter {
 		font-size: 40px;
 		display: block;
 		color: rgba($brand-white,1);
@@ -1363,7 +1363,7 @@ margin-left: -20px;
 		font-weight: 700;
 		margin-bottom: .3em;
 	}
-	.colorlib-counter-label {
+	.portfolio-counter-label {
 		color: rgba($brand-white,.7);
 		text-transform: uppercase;
 		font-size: 14px;
