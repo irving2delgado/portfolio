@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 30px 0; }
 
+  span {
+    color:#86c232;
+  }
+
 figure {
   margin-bottom: 2.5em;
   float: left;
@@ -465,7 +469,7 @@ body.offcanvas {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
-  background-color: #2c98f0;
+  background-color: #86c232;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -497,24 +501,15 @@ body.offcanvas {
   content: "\e114"; }
 
 .panel-heading a.collapsed {
-  background: #f2f3f7;
-  border: 1px solid #e6e6e6 !important;
-  color: #333333; }
+  background: #6b6e70;
+  border: 1px solid #474b4f !important;
+  color: #222629; }
 
 .panel-body {
   padding: 1.5em;
   margin-top: 5px;
   border: 1px solid #e6e6e6 !important; }
 
- #enlarge {
-    cursor: zoom-in;
-}
-
-#enlarge:hover {
-  transform:scale(2,2);
-  transform-origin:0 0;
-  z-index: 100000;
-}
 .timeline-centered {
   position: relative;
   margin-bottom: 30px; }
@@ -558,7 +553,7 @@ body.offcanvas {
   display: block;
   width: 40px;
   height: 40px;
-  background: #2c98f0;
+  background: #86c232;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -572,11 +567,11 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #222629; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #f9bf3f; }
+    background: #61892f; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
-    background: #a84cb8; }
+    background: #474b4f; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
@@ -587,7 +582,7 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
-  background: #f2f3f7;
+  background: #6b6e70;
   padding: 1.5em;
   margin-left: 60px;
   -webkit-background-clip: padding-box;
@@ -658,9 +653,9 @@ body.offcanvas {
     .services.color-4 .icon2 i {
       color: #474b4f; }
   .services.color-5 {
-    border-bottom: 2px solid #2fa499; }
+    border-bottom: 2px solid #86c232; }
   .services.color-6 {
-    border-bottom: 2px solid #4054b2; }
+    border-bottom: 2px solid #474b4f; }
 
 .services {
   margin-bottom: 80px;
@@ -953,7 +948,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: #86c232;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
