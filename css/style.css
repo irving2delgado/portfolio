@@ -384,28 +384,28 @@ body.offcanvas {
   margin: 0;
   padding: 0; }
 
-.colorlib-experience,
+.irving-experience,
 .irving-skills,
-.colorlib-education,
-.colorlib-blog,
-.colorlib-work,
+.portfolio-education,
+.irving-blog,
+.my-work,
 .portfolio-about,
 .irving-tools,
-.colorlib-contact {
+.irving-contact {
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
-    .colorlib-experience,
+    .irving-experience,
     .irving-skills,
-    .colorlib-education,
-    .colorlib-blog,
-    .colorlib-work,
+    .portfolio-education,
+    .irving-blog,
+    .my-work,
     .portfolio-about,
     .irving-tools,
-    .colorlib-contact {
+    .irving-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
 
