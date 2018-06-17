@@ -254,7 +254,7 @@
 				$("#sticky_item").trigger("sticky_kit:detach");
 				$("#sticky_item").trigger("sticky_kit:unstick");
 
-				$("#sticky_item").stick_in_parent();
+				// $("#sticky_item").stick_in_parent();
 			}
 			
 
@@ -267,6 +267,8 @@
 		// $("#sticky_item").stick_in_parent();
 
 	};
+
+	
 
 	var owlCrouselFeatureSlide = function() {
 		$('.owl-carousel').owlCarousel({
