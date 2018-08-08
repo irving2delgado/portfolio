@@ -290,14 +290,16 @@ figure {
         vertical-align: middle;
         min-height: 700px;
         padding: 2.5em;
-        position: relative; }
+        position: relative;
+       }
         @media screen and (max-width: 768px) {
           #main-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #main-hero .flexslider .slider-text > .slider-text-inner h1, #main-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: #61892f;
+          color: black;
+          text-shadow: 2px 2px #86c232;
           font-family: "Playfair Display", Georgia, serif; }
         #main-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -1059,7 +1061,8 @@ body.offcanvas {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.4); }
+    background: rgba(0, 0, 0, 0.8); 
+    opacity: 2;}
   .portfolio-counters .icon {
     width: 100px;
     height: 100px;
