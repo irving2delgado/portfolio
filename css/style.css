@@ -291,6 +291,8 @@ figure {
         min-height: 700px;
         padding: 2.5em;
         position: relative;
+        color: black;
+          text-shadow: 2px 2px #86c232;
        }
         @media screen and (max-width: 768px) {
           #main-hero .flexslider .slider-text > .slider-text-inner {
